@@ -1,5 +1,3 @@
-bin/
 pkg/
 src/github.com
-*.html
-*.xml
+

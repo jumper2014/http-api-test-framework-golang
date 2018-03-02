@@ -1,9 +1,9 @@
-// video delete API
+// Account register API
 // author: Zeng Yue Tian
 // date: 2017/12/22
-//
+// done
 
-package hia_auth
+package user
 
 import (
 	"libs/request"
@@ -14,8 +14,8 @@ import (
 	"bytes"
 )
 
-func VideoDelete(videoID string, body VideoDeleteBody) (*http.Response, error) {
-	uri := "/videos" + "/" + videoID
+func UserCreate(body UserCreateBody) (*http.Response, error) {
+	uri := "/user"
 
 	bytesData, err := json.Marshal(body)
 	if err != nil {
@@ -25,18 +25,15 @@ func VideoDelete(videoID string, body VideoDeleteBody) (*http.Response, error) {
 	reader := bytes.NewReader(bytesData)
 
 	return request.SendHttpRequest(
-		constant.DELETE,
-		constant.HiaServer,
-		constant.HiaPort,
+		constant.POST,
+		constant.ApiServer,
+		constant.Port,
 		uri,
 		constant.HeaderContentAcceptTypeJson,
 		reader)
-
 }
 
-type VideoDeleteBody struct {
-	userID 		uint64
-	videoName	string
-	url         string
-
+type UserCreateBody struct {
+	Name string `json:"name"`
+	Age  int `json:"age"`
 }

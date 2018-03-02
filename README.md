@@ -1,13 +1,21 @@
-# testing framework for block chain project
+# HTTP API Test Framework of Golang
 
-### How to run test
+### Run test one by one
     cd src
     cd testsuites
-    cd <suite_dir>
+    cd user
     go test
 
-    or run:
+### Run testsuite (setup, teardown)
+    cd src
+    cd testsuites
+    cd suite
+    go test
+
+### Create report for Windows System
+    run to generate XML report :
     go test -v 2>&1 |go-junit-report > report.xml
 
-    then run below command to generate HTML report:
-    main.go
+    run to generate HTML report:
+    cd src
+    go run main.go

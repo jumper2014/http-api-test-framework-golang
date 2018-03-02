@@ -8,17 +8,15 @@ import (
 )
 
 type User struct {
-	User_Id   	uint64
-	Password 	string
-	User_type	string
+	Id   		uint64
+	Age			uint64
 	Name    	string
-
 }
 
 
 
 func UserDeleteByName(name string) {
-	db, err := gorm.Open("mysql", constant.HisDbConnectStr)
+	db, err := gorm.Open("mysql", constant.ApiDbConnectStr)
 	db.SingularTable(true)
 	if err != nil {
 		fmt.Println("connect mysql error", err)
@@ -32,7 +30,7 @@ func UserDeleteByName(name string) {
 }
 
 func UserFindByName(name string) bool {
-	db, err := gorm.Open("mysql", constant.HisDbConnectStr)
+	db, err := gorm.Open("mysql", constant.ApiDbConnectStr)
 	db.SingularTable(true)
 	if err != nil {
 		fmt.Println("connect mysql error", err)

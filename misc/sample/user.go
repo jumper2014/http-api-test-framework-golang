@@ -12,14 +12,11 @@ type User struct {
 	Password 	string
 	User_type	string
 	Name    	string
-
 }
-
-
 
 func UserDeleteByName(db *gorm.DB, name string) {
 
-	db, err := gorm.Open("mysql", constant.HisDbConnectStr)
+	db, err := gorm.Open("mysql", constant.ApiDbConnectStr)
 	db.SingularTable(true)
 	if err != nil {
 		fmt.Println("connect mysql error", err)
@@ -32,7 +29,7 @@ func UserDeleteByName(db *gorm.DB, name string) {
 }
 
 func UserFindByName(name string) bool {
-	db, err := gorm.Open("mysql", constant.HisDbConnectStr)
+	db, err := gorm.Open("mysql", constant.ApiDbConnectStr)
 	db.SingularTable(true)
 	if err != nil {
 		fmt.Println("connect mysql error", err)
@@ -54,7 +51,7 @@ func UserFindByName(name string) bool {
 
 
 func main() {
-	db, err := gorm.Open("mysql", constant.HisDbConnectStr)
+	db, err := gorm.Open("mysql", constant.ApiDbConnectStr)
 	db.SingularTable(true)
 	if err != nil {
 		fmt.Println("connect mysql error", err)

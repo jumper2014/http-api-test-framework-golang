@@ -3,12 +3,8 @@ package constant
 const (
 
 	AdminUser = "admin"
-	AdminPassword = "admin"
-	AdminID = 13988888888
-	AdminEmail = "admin@cloutropy.com"
+	AdminAge = 30
 
-	UserTypePublisher = "publisher"
-	UserTypeCommonUser = "common"
-
-
+	RootUser = "root"
+	RootAge = 40
 )

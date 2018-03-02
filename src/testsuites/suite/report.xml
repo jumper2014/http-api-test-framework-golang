@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+	<testsuite tests="3" failures="0" time="0.454" name="testsuites/suite">
+		<properties>
+			<property name="go.version" value="go1.8.3"></property>
+		</properties>
+		<testcase classname="suite" name="TestUserTestSuite" time="0.120"></testcase>
+		<testcase classname="suite" name="TestUserTestSuite/TestUserCreate" time="0.080"></testcase>
+		<testcase classname="suite" name="TestUserTestSuite/TestUserDDT" time="0.030"></testcase>
+	</testsuite>
+</testsuites>
