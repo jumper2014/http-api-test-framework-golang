@@ -3,6 +3,11 @@
 ### Application under Testing
 https://github.com/jumper2014/http-api-aut
 
+### Features
+- support HTTP API request
+- support MySQL operation to verify result
+- support test case run and test suite run
+- support test report generation
 
 ### Run test one by one
     cd src
@@ -23,3 +28,7 @@ https://github.com/jumper2014/http-api-aut
     run to generate HTML report:
     cd src
     go run main.go
+
+
+### Notes
+- Please ignore misc/sample folder
