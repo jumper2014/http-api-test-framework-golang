@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5585302-c6c4-426c-bee6-164fd97ebeac" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/testsuites/suite/user_suite_test.go" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/misc/sample/user.go" afterPath="$PROJECT_DIR$/misc/sample/user.go" />
-      <change beforePath="$PROJECT_DIR$/src/libs/api/hia_auth/user_query.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/libs/api/hia_auth/user_register.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/libs/api/hia_auth/video_delete.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/libs/api/hia_auth/video_play.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/libs/api/hia_auth/video_purchase.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/libs/api/hia_auth/video_upload.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/libs/constant/host.go" afterPath="$PROJECT_DIR$/src/libs/constant/host.go" />
-      <change beforePath="$PROJECT_DIR$/src/libs/constant/test_data.go" afterPath="$PROJECT_DIR$/src/libs/constant/test_data.go" />
-      <change beforePath="$PROJECT_DIR$/src/libs/database/user.go" afterPath="$PROJECT_DIR$/src/libs/database/user.go" />
-      <change beforePath="$PROJECT_DIR$/src/main.go" afterPath="$PROJECT_DIR$/src/main.go" />
-      <change beforePath="$PROJECT_DIR$/src/testsuites/hia_auth/user_query_test.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/testsuites/hia_auth/user_register/UserRegisterEmailOptional_test.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/testsuites/hia_auth/user_register/UserRegisterOkCommon_test.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/testsuites/hia_auth/user_register/user_register_test.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/testsuites/hia_auth/video_delete_test.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/testsuites/hia_auth/video_play_test.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/testsuites/hia_auth/video_purchase_test.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/testsuites/hia_auth/video_upload_test.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/testsuites/suite/moco_test.go" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -80,8 +58,8 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="60">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -710,8 +688,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="60">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
